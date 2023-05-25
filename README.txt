@@ -25,3 +25,7 @@ git restore <file> -> it removes all file changes from staging area to be commit
 
 git restore --staged <file> -> it removes file changes from staging area to Working area. This only works when changes
                 are in your staging area.
+
+diff b/w rm and restore -> it you want to move whole file back to Untracked area, do git rm otherwise if we want  the 
+                        changes to be moved from working area or staging area then we do git restore.
+
