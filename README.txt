@@ -28,3 +28,13 @@ git restore --staged <file> -> it removes file changes from staging area to Work
 
 diff b/w rm and restore -> it you want to move whole file back to Untracked area, do git rm otherwise if we want  the 
                         changes to be moved from working area or staging area then we do git restore.
+
+git remote -> list down all the remote connections.
+
+remote connections -> it helps to link two git Repository for uploading and downloading changes from each other.
+
+git remote add <remote name> <link of remote> -> this command helps us to add a new link to the remote repository.
+
+git remote rm <name of remote> -> this command deletes a remote connection.
+
+git remote rename <oldname> <newname> -> this command renames remote connections.
