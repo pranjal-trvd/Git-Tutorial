@@ -16,3 +16,12 @@ git rm --cached <file> -> removes file from staging area to Working area.
 commit -> it is a particular version of the project, it captures a snapshot of projects staged changes and creates a 
             version out of it.
 
+git commit -> registers staging changes to a commit.
+
+git log -> list down all the commits of the repository.
+
+git restore <file> -> it removes all file changes from staging area to be commited. This can be useful if we did dirty
+                    piece of code and no more want it.
+
+git restore --staged <file> -> it removes file changes from staging area to Working area. This only works when changes
+                are in your staging area.
