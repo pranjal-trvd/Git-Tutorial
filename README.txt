@@ -38,3 +38,8 @@ git remote add <remote name> <link of remote> -> this command helps us to add a 
 git remote rm <name of remote> -> this command deletes a remote connection.
 
 git remote rename <oldname> <newname> -> this command renames remote connections.
+
+git add . -> this command will add all the files from working area to staging area.
+
+git pull <remote name> <branch name> -> this command will download latest changes from the branch of mentioned remote  
+                                        in your local repo.
